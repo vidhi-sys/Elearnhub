@@ -1,0 +1,15 @@
+SQL:
+CREATE TABLE ELearnHub (
+  name VARCHAR2(100),
+  email VARCHAR2(100) PRIMARY KEY,
+  password VARCHAR2(100)
+);
+
+packages:
+npm init -y
+npm install express 
+npm install body-parser 
+npm install oracledb
+
+for finding user info:
+http://localhost:3000/users
